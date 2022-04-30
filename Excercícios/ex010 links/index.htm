@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylesheet" type="text/css" rel="style.css">
+    <meta name="author" content="Alberto Pereira Jorge Filho">
+
+<title>Trabalhado com links</title>
+
+<style>
+</style>
+
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">repostório público no GitHub</a></p>
+    
+    <p>Você pode também acessar o meu <a href="https:youtube.com/cursoemvideo" target="_blank" rel="external">canal gratuito no youtube</a></p>
+
+    <h2>Usando Links internos</h2>
+    <p>Está é a primeira página do site. Se você quiser, pode
+        acessar também a minha <a href="pag002.html" rel="next">segunda página</a></p>
+
+        <p>Você também pode acessar a nossa <a href="Noticias/pag003.html"> página de notícias
+
+        </a></p>
+    <h2>Links para download</h1>
+
+<ul>
+    <li><a href="Livro/cartao de visita.pdf" download="cartao de visita.pdf" type="aplcation/pdf">Baixar o livro em pdf</a>
+    
+    <li><a href="Livro/cartao de visita.rar" download="cartao devisita.rar" type="aplication/rar">Livro compactado em zip</a>
+
+
+</ul>
+
+    
+</body>
+</html>
+
+<!--
+        Para vincular um link ao texto posterior deve-se
+        usar a tag 
+        
+        <a href="https://wwww.endereçodosite.com.br"> exemplo de texto ao qual viraria link <a>
+
+        Para abrir em nova aba usar a tag
+        <a href="https://wwww.endereçodosite.com.br" target="_blank" rel="external">
+
+    Significado das tags
+        REL= RELacionado a algo externo por isso rel="external"
+        target = vem do inglês alvo, por isso, o conteúdo da tag deve ser "_blank" direcionando à página vazia, uma nova aba.
+
+        OBS: NÃO ESQUECER DO UNDERLINE "_BLANK"
+
+    AINDA SOBRE LINKS
+            
+    O link INTERNO é aquele que é criado a partir de um novo arquivo html "criado por você" e deve
+    ESTAR NA MESMA PATA para funcionar.
+            A tag usada é mesma 
+            <a href="nomedoarquivo.html">
+    Dentro da segunda página eu posso criar um link
+    que volte para a primeira
+            <a href="página principal.html">
+
+    Lembre-se que existe a TAG rel="" ela diz como
+    a página vai se relacionar, para que os algorítimos do google não defina
+    EXISTEM 3 TAGS rel=
+                "external"
+                "Next" próximo em inglês
+                "Prev" abreviação da palavra previous que é anterior em inlês.
+
+    obs: ao envelopar o a href, apenas digitar a
+    letra a já funciona.
+        
+    OBS IMPORTANTE: SEMPRE QUANDO USAR OS LINKS
+    USAR O ATALHO CTRL + BARRA DE ESPAÇO. ISSO, 
+    CRIARÁ UMA SELEÇÃO DE PASTAS OU ARQUIVOS.
+
+    na tag <a href=""> tem uma peculiaridade.
+        ao digitar 
+        
+        "./"=pasta atual
+        "../"=pasta anterior
+
+    NOTE QUE O PONTO (.) DETERMINA A POSIÇÃO
+    DA PASTA.
+
+-->

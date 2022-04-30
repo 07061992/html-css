@@ -1,0 +1,90 @@
+
+body{
+    background-color: #57a177;
+}
+header{
+    text-align: center;
+    
+ background-image: linear-gradient(to top, #195D36,#479E6D);
+color: white;
+    
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: 'idroid';
+}
+
+h2, h3{
+    text-transform: uppercase;
+    color: #123d25;
+    font-family: 'idroid';
+}
+
+h3{
+    background-image: linear-gradient(to right,
+    #97d4b2,white);
+}
+
+nav{
+    text-align: left;
+    margin:
+}
+
+
+
+main{
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 1px 1px 5px black;
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.queraprendermais{
+    background-color:#BDD8CA;
+    padding: 0px 0px 10px 0px;
+    border-radius: 5px;
+}
+
+.video{ border: 15px solid #123d25;
+    
+}
+
+ul{
+    list-style-type: none;
+    display:inline-block
+}
+
+h4{
+    background-color:#379961 ;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+span{
+    color: #0f793d;
+}
+
+footer{
+    background-color: #1d4d31;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: small;
+
+}
+
+.imagens{  padding: 0px;
+    margin: auto;
+    width: 600px;
+    
+
+}
+

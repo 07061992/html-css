@@ -1,0 +1,5 @@
+ width: 600px;
+    padding: 10px;
+    margin: auto;
+
+ background-image: linear-gradient(to right, #F1DBC0,#F2C3A7);

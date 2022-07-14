@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Posicionamento</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
@@ -13,11 +13,25 @@
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+
+            /*
+                Shorthand - 
+            
+    background > image > postion > repeat > [size] 
+    > attachment
+
+    size não funciona! 
+
+            
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat cover fixed;
         }
 
         main{ 
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -29,7 +43,15 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint dolorum, nemo veniam molestias error in, eos dicta sit aliquam consectetur dolorem soluta, repellat inventore nulla quis sequi amet laborum.Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint dolorum, nemo veniam molestias error in, eos dicta sit aliquam consectetur dolorem soluta, repellat inventore nulla quis sequi amet laborum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint dolorum, nemo veniam molestias error in, eos dicta sit aliquam consectetur dolorem soluta, repellat inventore nulla quis sequi amet laborum.Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint dolorum, nemo veniam molestias error in, eos dicta sit aliquam consectetur dolorem soluta, repellat inventore nulla quis sequi amet laborum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint dolorum, nemo veniam molestias error in, eos dicta sit aliquam consectetur dolorem soluta, repellat inventore nulla quis sequi amet laborum.Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint dolorum, nemo veniam molestias error in, eos dicta sit aliquam consectetur dolorem soluta, repellat inventore nulla quis sequi amet laborum.
+        orem ipsum dolor sit amet consectetur adipisicing elit. At sint dolorum, nemo veniam molestias error in, eos dicta sit aliquam consectetur dolorem soluta, repellat inventore nulla quis sequi amet laborum.Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint dolorum, nemo veniam molestias error in, eos dicta sit aliquam consectetur dolorem soluta, repellat inventore nulla quis sequi amet laborum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint dolorum, nemo veniam molestias error in, eos dicta sit aliquam consectetur dolorem soluta, repellat inventore nulla quis sequi amet laborum.Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint dolorum, nemo veniam molestias error in, eos dicta sit aliquam consectetur dolorem soluta, repellat inventore nulla quis sequi amet laborum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint dolorum, nemo veniam molestias error in, eos dicta sit aliquam consectetur dolorem soluta, repellat inventore nulla quis sequi amet laborum.Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint dolorum, nemo veniam molestias error in, eos dicta sit aliquam consectetur dolorem soluta, repellat inventore nulla quis sequi amet laborum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint dolorum, nemo veniam molestias error in, eos dicta sit aliquam consectetur dolorem soluta, repellat inventore nulla quis sequi amet laborum.Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint dolorum, nemo veniam molestias error in, eos dicta sit aliquam consectetur dolorem soluta, repellat inventore nulla quis sequi amet laborum.
+        orem ipsum dolor sit amet consectetur adipisicing elit. At sint dolorum, nemo veniam molestias error in, eos dicta sit aliquam consectetur dolorem soluta, repellat inventore nulla quis sequi amet laborum.Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint dolorum, nemo veniam molestias error in, eos dicta sit aliquam consectetur dolorem soluta, repellat inventore nulla quis sequi amet laborum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint dolorum, nemo veniam molestias error in, eos dicta sit aliquam consectetur dolorem soluta, repellat inventore nulla quis sequi amet laborum.Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint dolorum, nemo veniam molestias error in, eos dicta sit aliquam consectetur dolorem soluta, repellat inventore nulla quis sequi amet laborum.
+        </p>
     </main>
     
 </body>
